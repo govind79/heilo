@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+/* header-wrapper starts */
+.header-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url("./slide01.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   color: #fff;
+    
+}
+
+.nav h4{
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 30px;
+}
+.nav h4 .light-text{
+    color: #dbdbdb;
+    font-size: 13px;
+    font-weight: 200;
+}
+.nav h5{
+    float: right;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.nav span{
+    padding-right: 10px;
+}
+/* .banner stats here */
+
+.banner-text{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+}
+.banner-text hr{
+    width: 40%;
+}
+.banner-text p{
+    font-weight: 200;
+    letter-spacing: 4px;
+    font-size: 13px;
+
+}
+.banner-text h1{
+    font-weight: 400;
+    font-size: 80px;
+    margin-top: 5px;
+}
+/* .banner endss */
+
+/* two-section starts heres */
+.full-wrapper{
+    padding: 80px 0px;
+    background-color: #dfdfdf;
+
+}
+
+.full-wrapper .fixed-width{
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+.two-section .fixed-width .left{
+    float: left;
+    width: 45%;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+.two-section .fixed-width .right{
+    float: right;
+    width: 45%;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+.two-section img{
+    width: 100%;
+}
+.two-section  .fixed-width h6{
+    letter-spacing: 3px;
+    color: gray;
+    margin-top: 50px;
+    font-weight: 100;
+    margin-bottom: 8px;
+}
+.two-section hr{
+    width: 50%;
+    color: gray;
+}
+.two-section h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+ .two-section .align-left{
+    letter-spacing: 0px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.fixed-width button{
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    width: 120px;
+    height: 40px;
+    border: 2px solid #dfdfdf;
+}
+/* full-quote starts here */
+.full-quote{
+    
+    background-image: url("./bg.jpg");
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.full-quote p{
+    letter-spacing: 3px;
+    color: #dbdbdb;
+    font-size: 13px;
+    font-weight: 200;
+}
+.full-quote hr{
+    width: 35%;
+    color:#dbdbdb ;
+
+}
+.full-quote h5{
+    color: #dbdbdb;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+/* four-image-section-starts */
+.fixed-width p{
+    letter-spacing: 3px;
+    color:gray;
+    font-size: 13px;
+    font-weight: 200;
+}
+.fixed-width hr{
+    width: 35%;
+    color: gray ;
+
+}
+.fixed-width h5{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.four-images img{
+    float: left;
+    width: 45%;
+    margin-bottom: 5%;
+    border: 10px solid #fff;
+
+}
+.four-images .left{
+    margin-left: 5%;
+}
+/* footer-starts here */
+.footer-full{
+    background-color:black;
+    color: gray;
+}
+.footer{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer .fa{
+    font-size: 25px;
+    padding: 10px;
+
+}
+.footer-full h6{
+    font-weight: 100;
+    margin-top: 10px;
+}
+/* media-quaries starts */
+@media only screen and (max-width:900px){
+    .banner-text h1{
+        font-size: 50px;
+    }
+    .banner-text p{
+        font-weight: 100px;
+        font-size: 11px;
+    }
+    .banner-text hr{
+        width: 60%;
+    }
+    .two-section .fixed-width .left{
+        width: 100%;
+        clear: both;
+        padding-bottom: 50px;
+        
+    }
+    .two-section .fixed-width .right{
+        width: 100%;
+        clear: both;
+        padding-bottom: 50px;
+        
+    }
+    .four-images img{
+        width: 100%;
+        clear: both;
+
+    }
+    .four-images .left{
+        margin-left: 0;
+    }
+    .full-quote hr{
+        width: 50%;
+    }
+
+}
